@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+    <EditText
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Sarlavha"
+        android:background="@drawable/rv_item_card"
+        android:backgroundTint="#4CAF50"
+        android:id="@+id/edt_sarlavha"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Matn"
+        android:background="@drawable/rv_item_card"
+        android:backgroundTint="#4CAF50"
+        android:id="@+id/edt_matn"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ohirgi_muddat"
+        android:padding="10dp"
+        android:background="@drawable/rv_item_card"
+        android:backgroundTint="#4CAF50"
+        android:id="@+id/edt_ohirgi_muddat"/>
+
+    <EditText
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="Loyiha"
+        android:background="@drawable/rv_item_card"
+        android:backgroundTint="#4CAF50"
+        android:id="@+id/edt_holat"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Save"
+        android:padding="10dp"
+        android:backgroundTint="#2196F3"/>
+
+</LinearLayout>
